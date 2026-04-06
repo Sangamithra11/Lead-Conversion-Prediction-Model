@@ -1,0 +1,501 @@
+LeadID,Name,Company,Email,Phone,LeadSource,ServiceInterested,FollowUpCount,DateCreated,Status
+1,Lead_1,Company_7,lead1@example.com,9.19E+11,Referral,Meta Ads,1,13-06-2025,Contacted
+2,Lead_2,Company_189,lead2@example.com,9.16E+11,Social Media,SEO,2,27-02-2025,Lost
+3,Lead_3,Company_9,lead3@example.com,9.16E+11,Indeed,Meta Ads,6,01-06-2025,Converted
+4,Lead_4,Company_155,lead4@example.com,9.16E+11,Social Media,Meta Ads,8,01-03-2025,Contacted
+5,Lead_5,Company_108,lead5@example.com,9.17E+11,Cold Call,Google Ads,8,16-06-2025,New
+6,Lead_6,Company_179,lead6@example.com,9.18E+11,Referral,Google Ads,2,02-01-2025,New
+7,Lead_7,Company_196,lead7@example.com,9.17E+11,Indeed,SEO,3,09-02-2025,New
+8,Lead_8,Company_92,lead8@example.com,9.20E+11,Referral,Google Ads,1,08-04-2025,Lost
+9,Lead_9,Company_138,lead9@example.com,9.17E+11,Cold Call,SEO,7,12-01-2025,Converted
+10,Lead_10,Company_161,lead10@example.com,9.19E+11,Referral,Meta Ads,4,22-05-2025,Converted
+11,Lead_11,Company_12,lead11@example.com,9.19E+11,Website,Google Ads,1,30-06-2025,New
+12,Lead_12,Company_26,lead12@example.com,9.18E+11,Referral,Web Development,3,21-01-2025,Lost
+13,Lead_13,Company_42,lead13@example.com,9.18E+11,Referral,Meta Ads,5,12-06-2025,Lost
+14,Lead_14,Company_180,lead14@example.com,9.19E+11,Indeed,Meta Ads,4,21-06-2025,New
+15,Lead_15,Company_42,lead15@example.com,9.18E+11,Cold Call,Google Ads,3,17-05-2025,New
+16,Lead_16,Company_57,lead16@example.com,9.19E+11,Referral,SEO,8,13-06-2025,New
+17,Lead_17,Company_81,lead17@example.com,9.18E+11,Referral,SEO,0,28-02-2025,Contacted
+18,Lead_18,Company_184,lead18@example.com,9.17E+11,Website,Web Development,9,24-02-2025,Contacted
+19,Lead_19,Company_118,lead19@example.com,9.17E+11,Referral,Meta Ads,10,12-04-2025,Contacted
+20,Lead_20,Company_138,lead20@example.com,9.17E+11,Social Media,Web Development,8,05-03-2025,Contacted
+21,Lead_21,Company_93,lead21@example.com,9.17E+11,Website,Web Development,6,30-05-2025,Converted
+22,Lead_22,Company_29,lead22@example.com,9.17E+11,Website,Web Development,0,24-01-2025,New
+23,Lead_23,Company_99,lead23@example.com,9.18E+11,Social Media,Web Development,1,02-06-2025,Contacted
+24,Lead_24,Company_142,lead24@example.com,9.20E+11,Indeed,SEO,4,16-05-2025,Contacted
+25,Lead_25,Company_193,lead25@example.com,9.17E+11,Referral,SEO,8,24-06-2025,Contacted
+26,Lead_26,Company_41,lead26@example.com,9.18E+11,Indeed,Google Ads,6,17-03-2025,Lost
+27,Lead_27,Company_130,lead27@example.com,9.20E+11,Indeed,Google Ads,2,09-05-2025,New
+28,Lead_28,Company_156,lead28@example.com,9.17E+11,Website,Google Ads,8,13-06-2025,Contacted
+29,Lead_29,Company_200,lead29@example.com,9.20E+11,Social Media,SEO,8,11-02-2025,Contacted
+30,Lead_30,Company_126,lead30@example.com,9.16E+11,Indeed,Google Ads,5,03-06-2025,New
+31,Lead_31,Company_15,lead31@example.com,9.17E+11,Social Media,SEO,3,20-03-2025,Converted
+32,Lead_32,Company_18,lead32@example.com,9.19E+11,Social Media,Meta Ads,7,22-01-2025,New
+33,Lead_33,Company_122,lead33@example.com,9.18E+11,Website,Google Ads,10,02-02-2025,New
+34,Lead_34,Company_109,lead34@example.com,9.17E+11,Social Media,Meta Ads,9,16-05-2025,Lost
+35,Lead_35,Company_172,lead35@example.com,9.19E+11,Referral,Web Development,6,21-03-2025,Lost
+36,Lead_36,Company_31,lead36@example.com,9.17E+11,Website,SEO,7,13-05-2025,Lost
+37,Lead_37,Company_151,lead37@example.com,9.18E+11,Website,Meta Ads,0,28-03-2025,Contacted
+38,Lead_38,Company_182,lead38@example.com,9.19E+11,Indeed,Meta Ads,1,02-01-2025,New
+39,Lead_39,Company_85,lead39@example.com,9.16E+11,Social Media,Meta Ads,0,18-01-2025,Converted
+40,Lead_40,Company_125,lead40@example.com,9.17E+11,Social Media,Meta Ads,10,13-03-2025,Contacted
+41,Lead_41,Company_122,lead41@example.com,9.17E+11,Cold Call,Web Development,9,27-05-2025,New
+42,Lead_42,Company_25,lead42@example.com,9.19E+11,Cold Call,Google Ads,1,18-02-2025,Contacted
+43,Lead_43,Company_120,lead43@example.com,9.20E+11,Indeed,SEO,6,19-04-2025,New
+44,Lead_44,Company_187,lead44@example.com,9.17E+11,Indeed,Meta Ads,6,16-01-2025,Lost
+45,Lead_45,Company_138,lead45@example.com,9.18E+11,Website,Web Development,3,19-02-2025,Contacted
+46,Lead_46,Company_119,lead46@example.com,9.17E+11,Indeed,Web Development,4,16-02-2025,Converted
+47,Lead_47,Company_13,lead47@example.com,9.19E+11,Social Media,SEO,1,21-05-2025,Contacted
+48,Lead_48,Company_43,lead48@example.com,9.18E+11,Cold Call,Web Development,3,24-01-2025,Contacted
+49,Lead_49,Company_16,lead49@example.com,9.17E+11,Cold Call,SEO,6,24-02-2025,Contacted
+50,Lead_50,Company_117,lead50@example.com,9.17E+11,Cold Call,Web Development,4,10-04-2025,New
+51,Lead_51,Company_76,lead51@example.com,9.17E+11,Indeed,SEO,3,09-02-2025,Lost
+52,Lead_52,Company_13,lead52@example.com,9.19E+11,Cold Call,Meta Ads,0,22-03-2025,Converted
+53,Lead_53,Company_21,lead53@example.com,9.20E+11,Website,SEO,8,15-01-2025,Lost
+54,Lead_54,Company_173,lead54@example.com,9.20E+11,Website,Web Development,1,02-06-2025,Lost
+55,Lead_55,Company_64,lead55@example.com,9.18E+11,Social Media,SEO,9,31-01-2025,Contacted
+56,Lead_56,Company_108,lead56@example.com,9.19E+11,Social Media,Google Ads,1,08-06-2025,Lost
+57,Lead_57,Company_172,lead57@example.com,9.19E+11,Referral,Meta Ads,3,08-03-2025,New
+58,Lead_58,Company_34,lead58@example.com,9.19E+11,Referral,Web Development,6,09-03-2025,New
+59,Lead_59,Company_3,lead59@example.com,9.18E+11,Social Media,SEO,1,22-03-2025,New
+60,Lead_60,Company_55,lead60@example.com,9.18E+11,Referral,Meta Ads,8,19-01-2025,Contacted
+61,Lead_61,Company_63,lead61@example.com,9.18E+11,Referral,Meta Ads,1,31-03-2025,Contacted
+62,Lead_62,Company_181,lead62@example.com,9.17E+11,Social Media,SEO,8,23-04-2025,Contacted
+63,Lead_63,Company_77,lead63@example.com,9.19E+11,Indeed,Meta Ads,8,20-06-2025,Lost
+64,Lead_64,Company_28,lead64@example.com,9.19E+11,Social Media,Meta Ads,1,09-03-2025,Contacted
+65,Lead_65,Company_155,lead65@example.com,9.17E+11,Referral,Meta Ads,4,11-03-2025,Contacted
+66,Lead_66,Company_68,lead66@example.com,9.18E+11,Cold Call,Google Ads,10,25-06-2025,Contacted
+67,Lead_67,Company_163,lead67@example.com,9.18E+11,Referral,SEO,1,14-01-2025,New
+68,Lead_68,Company_198,lead68@example.com,9.17E+11,Referral,Meta Ads,5,01-01-2025,Lost
+69,Lead_69,Company_181,lead69@example.com,9.18E+11,Social Media,SEO,8,24-04-2025,New
+70,Lead_70,Company_177,lead70@example.com,9.20E+11,Website,SEO,1,29-01-2025,Lost
+71,Lead_71,Company_142,lead71@example.com,9.17E+11,Cold Call,Meta Ads,9,05-04-2025,Converted
+72,Lead_72,Company_94,lead72@example.com,9.20E+11,Indeed,Google Ads,4,11-01-2025,New
+73,Lead_73,Company_64,lead73@example.com,9.19E+11,Indeed,Google Ads,10,23-02-2025,New
+74,Lead_74,Company_159,lead74@example.com,9.19E+11,Website,Meta Ads,6,24-05-2025,Lost
+75,Lead_75,Company_106,lead75@example.com,9.16E+11,Website,Google Ads,2,11-02-2025,Converted
+76,Lead_76,Company_189,lead76@example.com,9.19E+11,Website,Google Ads,10,16-04-2025,Converted
+77,Lead_77,Company_98,lead77@example.com,9.20E+11,Indeed,Web Development,1,10-02-2025,Converted
+78,Lead_78,Company_118,lead78@example.com,9.18E+11,Referral,Meta Ads,3,26-02-2025,New
+79,Lead_79,Company_169,lead79@example.com,9.17E+11,Cold Call,Google Ads,0,27-02-2025,Contacted
+80,Lead_80,Company_198,lead80@example.com,9.17E+11,Referral,Web Development,1,13-03-2025,New
+81,Lead_81,Company_85,lead81@example.com,9.16E+11,Indeed,Google Ads,8,23-06-2025,Lost
+82,Lead_82,Company_68,lead82@example.com,9.16E+11,Indeed,Web Development,9,15-02-2025,Converted
+83,Lead_83,Company_112,lead83@example.com,9.19E+11,Social Media,SEO,5,30-03-2025,Contacted
+84,Lead_84,Company_49,lead84@example.com,9.17E+11,Indeed,Web Development,9,09-04-2025,New
+85,Lead_85,Company_138,lead85@example.com,9.19E+11,Website,Google Ads,8,01-01-2025,Contacted
+86,Lead_86,Company_171,lead86@example.com,9.20E+11,Referral,Google Ads,1,21-04-2025,Contacted
+87,Lead_87,Company_185,lead87@example.com,9.20E+11,Referral,Google Ads,1,19-06-2025,Converted
+88,Lead_88,Company_84,lead88@example.com,9.18E+11,Referral,Meta Ads,6,20-06-2025,Converted
+89,Lead_89,Company_171,lead89@example.com,9.18E+11,Website,Google Ads,6,19-02-2025,Lost
+90,Lead_90,Company_1,lead90@example.com,9.17E+11,Referral,Meta Ads,8,14-04-2025,Contacted
+91,Lead_91,Company_156,lead91@example.com,9.19E+11,Referral,Web Development,9,21-04-2025,New
+92,Lead_92,Company_173,lead92@example.com,9.17E+11,Social Media,Web Development,7,24-04-2025,Converted
+93,Lead_93,Company_22,lead93@example.com,9.17E+11,Social Media,Google Ads,10,13-02-2025,Converted
+94,Lead_94,Company_173,lead94@example.com,9.17E+11,Website,Meta Ads,3,24-01-2025,Contacted
+95,Lead_95,Company_12,lead95@example.com,9.17E+11,Cold Call,SEO,0,07-02-2025,Converted
+96,Lead_96,Company_162,lead96@example.com,9.18E+11,Website,Web Development,6,27-04-2025,Contacted
+97,Lead_97,Company_63,lead97@example.com,9.17E+11,Indeed,SEO,6,07-05-2025,Contacted
+98,Lead_98,Company_46,lead98@example.com,9.19E+11,Social Media,Web Development,3,19-04-2025,Contacted
+99,Lead_99,Company_64,lead99@example.com,9.20E+11,Indeed,Web Development,8,13-01-2025,New
+100,Lead_100,Company_171,lead100@example.com,9.18E+11,Social Media,Google Ads,7,04-02-2025,New
+101,Lead_101,Company_185,lead101@example.com,9.20E+11,Social Media,Web Development,9,24-04-2025,New
+102,Lead_102,Company_41,lead102@example.com,9.19E+11,Cold Call,Web Development,7,21-05-2025,Converted
+103,Lead_103,Company_164,lead103@example.com,9.17E+11,Social Media,Web Development,3,08-03-2025,Contacted
+104,Lead_104,Company_71,lead104@example.com,9.18E+11,Indeed,Google Ads,3,10-06-2025,Contacted
+105,Lead_105,Company_86,lead105@example.com,9.17E+11,Social Media,SEO,4,02-03-2025,Lost
+106,Lead_106,Company_60,lead106@example.com,9.18E+11,Website,Meta Ads,2,05-02-2025,New
+107,Lead_107,Company_105,lead107@example.com,9.17E+11,Social Media,Web Development,6,17-01-2025,Contacted
+108,Lead_108,Company_53,lead108@example.com,9.20E+11,Cold Call,Web Development,0,17-04-2025,Converted
+109,Lead_109,Company_196,lead109@example.com,9.18E+11,Cold Call,Web Development,0,30-05-2025,New
+110,Lead_110,Company_77,lead110@example.com,9.19E+11,Cold Call,Web Development,5,02-01-2025,New
+111,Lead_111,Company_155,lead111@example.com,9.20E+11,Website,Web Development,8,18-05-2025,Contacted
+112,Lead_112,Company_112,lead112@example.com,9.18E+11,Indeed,Web Development,4,26-02-2025,New
+113,Lead_113,Company_174,lead113@example.com,9.19E+11,Cold Call,Meta Ads,10,28-03-2025,Lost
+114,Lead_114,Company_160,lead114@example.com,9.18E+11,Indeed,Web Development,2,30-04-2025,Lost
+115,Lead_115,Company_170,lead115@example.com,9.16E+11,Indeed,Web Development,9,01-06-2025,Converted
+116,Lead_116,Company_47,lead116@example.com,9.16E+11,Referral,Web Development,7,04-02-2025,Lost
+117,Lead_117,Company_117,lead117@example.com,9.17E+11,Referral,Web Development,3,25-03-2025,Lost
+118,Lead_118,Company_65,lead118@example.com,9.20E+11,Indeed,Web Development,6,13-03-2025,New
+119,Lead_119,Company_14,lead119@example.com,9.18E+11,Website,SEO,8,05-01-2025,Lost
+120,Lead_120,Company_194,lead120@example.com,9.16E+11,Website,Meta Ads,0,16-06-2025,Contacted
+121,Lead_121,Company_40,lead121@example.com,9.17E+11,Website,Web Development,9,06-01-2025,Lost
+122,Lead_122,Company_145,lead122@example.com,9.17E+11,Cold Call,Google Ads,1,21-06-2025,Lost
+123,Lead_123,Company_156,lead123@example.com,9.19E+11,Indeed,Meta Ads,2,05-04-2025,Contacted
+124,Lead_124,Company_149,lead124@example.com,9.16E+11,Referral,Web Development,1,21-03-2025,New
+125,Lead_125,Company_20,lead125@example.com,9.19E+11,Website,SEO,3,12-04-2025,New
+126,Lead_126,Company_176,lead126@example.com,9.19E+11,Indeed,SEO,4,28-06-2025,Contacted
+127,Lead_127,Company_110,lead127@example.com,9.19E+11,Referral,SEO,8,30-03-2025,Lost
+128,Lead_128,Company_88,lead128@example.com,9.16E+11,Cold Call,Web Development,10,10-05-2025,Lost
+129,Lead_129,Company_93,lead129@example.com,9.19E+11,Cold Call,Meta Ads,6,28-01-2025,New
+130,Lead_130,Company_188,lead130@example.com,9.18E+11,Referral,Web Development,2,22-04-2025,Contacted
+131,Lead_131,Company_188,lead131@example.com,9.19E+11,Referral,Google Ads,6,30-04-2025,Contacted
+132,Lead_132,Company_72,lead132@example.com,9.20E+11,Cold Call,Meta Ads,1,04-03-2025,New
+133,Lead_133,Company_157,lead133@example.com,9.19E+11,Cold Call,Google Ads,9,29-04-2025,New
+134,Lead_134,Company_84,lead134@example.com,9.17E+11,Cold Call,Meta Ads,7,08-01-2025,Contacted
+135,Lead_135,Company_88,lead135@example.com,9.17E+11,Social Media,Google Ads,4,01-04-2025,Lost
+136,Lead_136,Company_133,lead136@example.com,9.17E+11,Indeed,Meta Ads,0,23-05-2025,Contacted
+137,Lead_137,Company_143,lead137@example.com,9.19E+11,Website,Web Development,7,15-04-2025,Contacted
+138,Lead_138,Company_115,lead138@example.com,9.19E+11,Indeed,SEO,7,15-06-2025,Converted
+139,Lead_139,Company_104,lead139@example.com,9.19E+11,Website,Google Ads,3,17-03-2025,Contacted
+140,Lead_140,Company_95,lead140@example.com,9.18E+11,Social Media,Google Ads,9,19-06-2025,Lost
+141,Lead_141,Company_85,lead141@example.com,9.18E+11,Cold Call,Google Ads,8,19-04-2025,Lost
+142,Lead_142,Company_60,lead142@example.com,9.17E+11,Website,Google Ads,4,20-03-2025,Contacted
+143,Lead_143,Company_196,lead143@example.com,9.19E+11,Website,Meta Ads,8,31-01-2025,Contacted
+144,Lead_144,Company_71,lead144@example.com,9.19E+11,Social Media,Google Ads,7,25-02-2025,Contacted
+145,Lead_145,Company_76,lead145@example.com,9.17E+11,Referral,Meta Ads,3,26-01-2025,Contacted
+146,Lead_146,Company_182,lead146@example.com,9.18E+11,Website,Google Ads,0,19-03-2025,New
+147,Lead_147,Company_142,lead147@example.com,9.17E+11,Website,Web Development,0,12-01-2025,Converted
+148,Lead_148,Company_147,lead148@example.com,9.17E+11,Cold Call,Web Development,0,27-01-2025,Contacted
+149,Lead_149,Company_48,lead149@example.com,9.16E+11,Referral,Web Development,5,23-04-2025,New
+150,Lead_150,Company_103,lead150@example.com,9.18E+11,Indeed,SEO,1,30-01-2025,Contacted
+151,Lead_151,Company_145,lead151@example.com,9.17E+11,Indeed,Meta Ads,2,08-02-2025,Lost
+152,Lead_152,Company_196,lead152@example.com,9.18E+11,Social Media,Meta Ads,8,31-01-2025,New
+153,Lead_153,Company_116,lead153@example.com,9.20E+11,Cold Call,Google Ads,6,14-05-2025,New
+154,Lead_154,Company_79,lead154@example.com,9.18E+11,Social Media,SEO,6,31-05-2025,Contacted
+155,Lead_155,Company_196,lead155@example.com,9.17E+11,Website,Google Ads,1,06-06-2025,Lost
+156,Lead_156,Company_41,lead156@example.com,9.17E+11,Website,SEO,1,19-06-2025,New
+157,Lead_157,Company_105,lead157@example.com,9.18E+11,Social Media,Web Development,0,10-02-2025,Converted
+158,Lead_158,Company_60,lead158@example.com,9.17E+11,Referral,Web Development,0,16-03-2025,Converted
+159,Lead_159,Company_60,lead159@example.com,9.20E+11,Referral,Meta Ads,10,19-01-2025,New
+160,Lead_160,Company_140,lead160@example.com,9.17E+11,Website,Google Ads,1,19-04-2025,Converted
+161,Lead_161,Company_16,lead161@example.com,9.17E+11,Referral,Google Ads,1,06-02-2025,Contacted
+162,Lead_162,Company_120,lead162@example.com,9.19E+11,Referral,Web Development,1,23-04-2025,Converted
+163,Lead_163,Company_139,lead163@example.com,9.18E+11,Cold Call,SEO,8,11-03-2025,Converted
+164,Lead_164,Company_111,lead164@example.com,9.19E+11,Referral,Google Ads,0,03-06-2025,Contacted
+165,Lead_165,Company_59,lead165@example.com,9.19E+11,Social Media,SEO,1,07-01-2025,New
+166,Lead_166,Company_148,lead166@example.com,9.16E+11,Website,Web Development,4,22-06-2025,Lost
+167,Lead_167,Company_114,lead167@example.com,9.20E+11,Referral,Meta Ads,10,13-05-2025,Contacted
+168,Lead_168,Company_163,lead168@example.com,9.19E+11,Cold Call,SEO,6,30-05-2025,New
+169,Lead_169,Company_105,lead169@example.com,9.17E+11,Referral,SEO,5,01-05-2025,New
+170,Lead_170,Company_106,lead170@example.com,9.19E+11,Cold Call,Google Ads,5,11-02-2025,Contacted
+171,Lead_171,Company_195,lead171@example.com,9.18E+11,Indeed,Web Development,6,19-06-2025,Converted
+172,Lead_172,Company_65,lead172@example.com,9.17E+11,Indeed,Web Development,5,23-01-2025,New
+173,Lead_173,Company_169,lead173@example.com,9.20E+11,Social Media,Web Development,0,12-05-2025,Contacted
+174,Lead_174,Company_49,lead174@example.com,9.18E+11,Referral,Web Development,0,16-04-2025,New
+175,Lead_175,Company_195,lead175@example.com,9.16E+11,Website,Google Ads,7,10-06-2025,Converted
+176,Lead_176,Company_74,lead176@example.com,9.18E+11,Cold Call,SEO,2,21-05-2025,New
+177,Lead_177,Company_156,lead177@example.com,9.19E+11,Website,Meta Ads,10,08-01-2025,Converted
+178,Lead_178,Company_4,lead178@example.com,9.18E+11,Cold Call,SEO,8,21-03-2025,Contacted
+179,Lead_179,Company_119,lead179@example.com,9.17E+11,Website,Web Development,1,27-02-2025,Lost
+180,Lead_180,Company_181,lead180@example.com,9.17E+11,Cold Call,Web Development,8,16-03-2025,New
+181,Lead_181,Company_117,lead181@example.com,9.18E+11,Website,Web Development,3,01-05-2025,Contacted
+182,Lead_182,Company_131,lead182@example.com,9.19E+11,Website,SEO,9,18-02-2025,New
+183,Lead_183,Company_88,lead183@example.com,9.19E+11,Social Media,Google Ads,6,12-03-2025,Lost
+184,Lead_184,Company_186,lead184@example.com,9.17E+11,Social Media,Web Development,4,01-01-2025,Lost
+185,Lead_185,Company_138,lead185@example.com,9.18E+11,Referral,Google Ads,7,08-02-2025,Contacted
+186,Lead_186,Company_97,lead186@example.com,9.18E+11,Referral,Meta Ads,8,22-05-2025,Converted
+187,Lead_187,Company_147,lead187@example.com,9.18E+11,Website,Web Development,3,28-06-2025,Lost
+188,Lead_188,Company_191,lead188@example.com,9.18E+11,Cold Call,Web Development,5,12-01-2025,Contacted
+189,Lead_189,Company_39,lead189@example.com,9.18E+11,Indeed,Meta Ads,10,19-06-2025,Contacted
+190,Lead_190,Company_85,lead190@example.com,9.20E+11,Indeed,Web Development,9,09-05-2025,New
+191,Lead_191,Company_117,lead191@example.com,9.16E+11,Website,Web Development,8,26-01-2025,New
+192,Lead_192,Company_20,lead192@example.com,9.18E+11,Referral,Google Ads,2,17-06-2025,Lost
+193,Lead_193,Company_167,lead193@example.com,9.16E+11,Referral,Web Development,6,09-06-2025,Lost
+194,Lead_194,Company_184,lead194@example.com,9.20E+11,Cold Call,SEO,10,23-03-2025,Converted
+195,Lead_195,Company_61,lead195@example.com,9.19E+11,Referral,Meta Ads,1,08-06-2025,Contacted
+196,Lead_196,Company_26,lead196@example.com,9.19E+11,Indeed,Web Development,6,24-01-2025,Contacted
+197,Lead_197,Company_8,lead197@example.com,9.16E+11,Referral,SEO,4,12-02-2025,Converted
+198,Lead_198,Company_96,lead198@example.com,9.18E+11,Website,Meta Ads,5,17-03-2025,Lost
+199,Lead_199,Company_145,lead199@example.com,9.19E+11,Website,Meta Ads,6,16-05-2025,Lost
+200,Lead_200,Company_157,lead200@example.com,9.20E+11,Cold Call,Meta Ads,1,14-02-2025,Converted
+201,Lead_201,Company_37,lead201@example.com,9.17E+11,Cold Call,Google Ads,9,08-05-2025,Converted
+202,Lead_202,Company_171,lead202@example.com,9.16E+11,Cold Call,Google Ads,4,28-04-2025,New
+203,Lead_203,Company_41,lead203@example.com,9.16E+11,Cold Call,Google Ads,8,23-06-2025,New
+204,Lead_204,Company_164,lead204@example.com,9.18E+11,Referral,Web Development,4,31-05-2025,Lost
+205,Lead_205,Company_99,lead205@example.com,9.20E+11,Cold Call,SEO,3,19-03-2025,Converted
+206,Lead_206,Company_147,lead206@example.com,9.18E+11,Social Media,Google Ads,6,02-03-2025,New
+207,Lead_207,Company_6,lead207@example.com,9.20E+11,Cold Call,Google Ads,4,29-06-2025,New
+208,Lead_208,Company_176,lead208@example.com,9.19E+11,Indeed,Web Development,9,03-01-2025,Converted
+209,Lead_209,Company_156,lead209@example.com,9.19E+11,Referral,Meta Ads,3,15-03-2025,New
+210,Lead_210,Company_159,lead210@example.com,9.17E+11,Website,SEO,3,12-06-2025,New
+211,Lead_211,Company_11,lead211@example.com,9.17E+11,Cold Call,SEO,10,10-06-2025,Contacted
+212,Lead_212,Company_188,lead212@example.com,9.17E+11,Indeed,Google Ads,5,29-05-2025,Converted
+213,Lead_213,Company_45,lead213@example.com,9.17E+11,Website,Google Ads,6,25-03-2025,Converted
+214,Lead_214,Company_70,lead214@example.com,9.20E+11,Website,Google Ads,8,16-05-2025,New
+215,Lead_215,Company_192,lead215@example.com,9.20E+11,Referral,SEO,4,04-05-2025,Converted
+216,Lead_216,Company_37,lead216@example.com,9.19E+11,Website,Web Development,1,30-04-2025,New
+217,Lead_217,Company_24,lead217@example.com,9.19E+11,Cold Call,SEO,5,23-05-2025,Contacted
+218,Lead_218,Company_32,lead218@example.com,9.18E+11,Referral,Google Ads,8,09-03-2025,Converted
+219,Lead_219,Company_164,lead219@example.com,9.18E+11,Indeed,Meta Ads,6,30-05-2025,Converted
+220,Lead_220,Company_159,lead220@example.com,9.20E+11,Social Media,Google Ads,0,01-05-2025,Lost
+221,Lead_221,Company_166,lead221@example.com,9.16E+11,Cold Call,Google Ads,3,06-06-2025,Converted
+222,Lead_222,Company_30,lead222@example.com,9.17E+11,Indeed,SEO,6,16-06-2025,Contacted
+223,Lead_223,Company_30,lead223@example.com,9.16E+11,Website,Meta Ads,7,19-03-2025,New
+224,Lead_224,Company_95,lead224@example.com,9.19E+11,Social Media,Web Development,7,10-04-2025,Contacted
+225,Lead_225,Company_107,lead225@example.com,9.19E+11,Indeed,Web Development,2,31-05-2025,Contacted
+226,Lead_226,Company_72,lead226@example.com,9.16E+11,Referral,Meta Ads,6,07-06-2025,New
+227,Lead_227,Company_61,lead227@example.com,9.20E+11,Referral,SEO,7,24-04-2025,Lost
+228,Lead_228,Company_140,lead228@example.com,9.20E+11,Referral,SEO,5,25-06-2025,Contacted
+229,Lead_229,Company_49,lead229@example.com,9.17E+11,Cold Call,SEO,4,12-04-2025,Lost
+230,Lead_230,Company_165,lead230@example.com,9.19E+11,Social Media,SEO,3,19-06-2025,Converted
+231,Lead_231,Company_63,lead231@example.com,9.17E+11,Social Media,Meta Ads,5,13-01-2025,Lost
+232,Lead_232,Company_54,lead232@example.com,9.19E+11,Website,Meta Ads,8,18-01-2025,Contacted
+233,Lead_233,Company_153,lead233@example.com,9.16E+11,Referral,Meta Ads,2,26-03-2025,Contacted
+234,Lead_234,Company_65,lead234@example.com,9.19E+11,Website,SEO,8,03-02-2025,Contacted
+235,Lead_235,Company_34,lead235@example.com,9.16E+11,Referral,Meta Ads,0,19-06-2025,New
+236,Lead_236,Company_5,lead236@example.com,9.17E+11,Referral,SEO,5,31-05-2025,Converted
+237,Lead_237,Company_135,lead237@example.com,9.16E+11,Indeed,Web Development,6,02-02-2025,Contacted
+238,Lead_238,Company_132,lead238@example.com,9.19E+11,Indeed,Web Development,5,25-04-2025,New
+239,Lead_239,Company_158,lead239@example.com,9.16E+11,Social Media,Google Ads,3,09-05-2025,Converted
+240,Lead_240,Company_8,lead240@example.com,9.16E+11,Cold Call,Web Development,10,28-04-2025,New
+241,Lead_241,Company_28,lead241@example.com,9.18E+11,Cold Call,SEO,10,20-04-2025,Lost
+242,Lead_242,Company_156,lead242@example.com,9.17E+11,Indeed,Meta Ads,5,21-01-2025,Lost
+243,Lead_243,Company_163,lead243@example.com,9.19E+11,Social Media,Google Ads,9,12-03-2025,Lost
+244,Lead_244,Company_136,lead244@example.com,9.17E+11,Cold Call,Web Development,9,08-04-2025,Contacted
+245,Lead_245,Company_168,lead245@example.com,9.19E+11,Social Media,Meta Ads,1,26-01-2025,New
+246,Lead_246,Company_59,lead246@example.com,9.18E+11,Referral,Web Development,7,21-04-2025,Lost
+247,Lead_247,Company_187,lead247@example.com,9.16E+11,Referral,Web Development,6,13-04-2025,Contacted
+248,Lead_248,Company_66,lead248@example.com,9.18E+11,Website,Web Development,10,22-03-2025,Lost
+249,Lead_249,Company_22,lead249@example.com,9.16E+11,Cold Call,SEO,1,18-01-2025,Lost
+250,Lead_250,Company_143,lead250@example.com,9.16E+11,Social Media,Google Ads,2,06-04-2025,Lost
+251,Lead_251,Company_106,lead251@example.com,9.18E+11,Cold Call,SEO,1,21-06-2025,Contacted
+252,Lead_252,Company_80,lead252@example.com,9.18E+11,Indeed,Meta Ads,9,15-03-2025,Contacted
+253,Lead_253,Company_124,lead253@example.com,9.17E+11,Indeed,Google Ads,10,09-02-2025,Lost
+254,Lead_254,Company_30,lead254@example.com,9.19E+11,Referral,Meta Ads,5,23-05-2025,Contacted
+255,Lead_255,Company_197,lead255@example.com,9.20E+11,Social Media,SEO,8,20-04-2025,New
+256,Lead_256,Company_178,lead256@example.com,9.17E+11,Indeed,Meta Ads,10,05-06-2025,Contacted
+257,Lead_257,Company_87,lead257@example.com,9.18E+11,Indeed,Meta Ads,4,11-03-2025,Lost
+258,Lead_258,Company_169,lead258@example.com,9.18E+11,Indeed,Meta Ads,9,06-02-2025,Converted
+259,Lead_259,Company_24,lead259@example.com,9.19E+11,Social Media,Meta Ads,0,12-06-2025,Contacted
+260,Lead_260,Company_117,lead260@example.com,9.17E+11,Website,Google Ads,6,07-04-2025,New
+261,Lead_261,Company_199,lead261@example.com,9.18E+11,Social Media,SEO,5,21-03-2025,Converted
+262,Lead_262,Company_41,lead262@example.com,9.19E+11,Social Media,SEO,2,14-01-2025,Lost
+263,Lead_263,Company_70,lead263@example.com,9.18E+11,Cold Call,Web Development,1,22-06-2025,New
+264,Lead_264,Company_107,lead264@example.com,9.17E+11,Website,SEO,7,05-06-2025,Contacted
+265,Lead_265,Company_29,lead265@example.com,9.17E+11,Social Media,Web Development,6,30-03-2025,Lost
+266,Lead_266,Company_79,lead266@example.com,9.16E+11,Website,Web Development,10,15-05-2025,Converted
+267,Lead_267,Company_2,lead267@example.com,9.17E+11,Referral,Meta Ads,0,03-06-2025,Converted
+268,Lead_268,Company_75,lead268@example.com,9.17E+11,Indeed,SEO,4,05-02-2025,Converted
+269,Lead_269,Company_45,lead269@example.com,9.17E+11,Cold Call,Meta Ads,6,08-05-2025,Contacted
+270,Lead_270,Company_172,lead270@example.com,9.19E+11,Referral,SEO,8,09-05-2025,Contacted
+271,Lead_271,Company_112,lead271@example.com,9.16E+11,Cold Call,SEO,0,12-04-2025,Lost
+272,Lead_272,Company_110,lead272@example.com,9.18E+11,Cold Call,Web Development,9,22-03-2025,Lost
+273,Lead_273,Company_104,lead273@example.com,9.16E+11,Referral,Meta Ads,1,16-03-2025,Lost
+274,Lead_274,Company_177,lead274@example.com,9.20E+11,Referral,SEO,7,08-06-2025,Lost
+275,Lead_275,Company_63,lead275@example.com,9.18E+11,Social Media,Web Development,1,22-04-2025,Contacted
+276,Lead_276,Company_102,lead276@example.com,9.20E+11,Referral,Google Ads,1,15-05-2025,Contacted
+277,Lead_277,Company_200,lead277@example.com,9.17E+11,Indeed,SEO,5,26-02-2025,Lost
+278,Lead_278,Company_50,lead278@example.com,9.20E+11,Referral,Google Ads,8,16-05-2025,Converted
+279,Lead_279,Company_61,lead279@example.com,9.16E+11,Website,Google Ads,2,15-06-2025,Converted
+280,Lead_280,Company_155,lead280@example.com,9.17E+11,Indeed,Meta Ads,2,20-02-2025,Lost
+281,Lead_281,Company_119,lead281@example.com,9.19E+11,Social Media,Web Development,7,10-06-2025,Lost
+282,Lead_282,Company_165,lead282@example.com,9.19E+11,Social Media,Google Ads,9,24-06-2025,Contacted
+283,Lead_283,Company_39,lead283@example.com,9.18E+11,Indeed,Web Development,5,10-06-2025,Contacted
+284,Lead_284,Company_78,lead284@example.com,9.19E+11,Referral,SEO,10,24-04-2025,New
+285,Lead_285,Company_19,lead285@example.com,9.17E+11,Cold Call,Web Development,8,01-04-2025,Contacted
+286,Lead_286,Company_95,lead286@example.com,9.20E+11,Referral,SEO,0,10-01-2025,New
+287,Lead_287,Company_158,lead287@example.com,9.19E+11,Social Media,Web Development,1,15-06-2025,Contacted
+288,Lead_288,Company_142,lead288@example.com,9.19E+11,Indeed,Web Development,9,29-04-2025,Contacted
+289,Lead_289,Company_49,lead289@example.com,9.17E+11,Social Media,Web Development,10,27-05-2025,Contacted
+290,Lead_290,Company_16,lead290@example.com,9.18E+11,Indeed,Google Ads,2,09-05-2025,Contacted
+291,Lead_291,Company_166,lead291@example.com,9.17E+11,Indeed,Meta Ads,8,22-01-2025,New
+292,Lead_292,Company_135,lead292@example.com,9.18E+11,Social Media,Meta Ads,7,23-04-2025,New
+293,Lead_293,Company_73,lead293@example.com,9.18E+11,Cold Call,Google Ads,5,04-04-2025,Lost
+294,Lead_294,Company_14,lead294@example.com,9.19E+11,Referral,SEO,9,23-06-2025,Contacted
+295,Lead_295,Company_143,lead295@example.com,9.19E+11,Cold Call,Google Ads,1,26-03-2025,New
+296,Lead_296,Company_155,lead296@example.com,9.20E+11,Website,Google Ads,10,06-03-2025,Contacted
+297,Lead_297,Company_170,lead297@example.com,9.17E+11,Referral,Google Ads,9,21-01-2025,Converted
+298,Lead_298,Company_101,lead298@example.com,9.17E+11,Social Media,SEO,10,17-06-2025,New
+299,Lead_299,Company_97,lead299@example.com,9.19E+11,Referral,Meta Ads,8,21-03-2025,Converted
+300,Lead_300,Company_135,lead300@example.com,9.16E+11,Cold Call,Google Ads,10,21-06-2025,New
+301,Lead_301,Company_80,lead301@example.com,9.17E+11,Website,Google Ads,5,05-01-2025,New
+302,Lead_302,Company_58,lead302@example.com,9.17E+11,Website,SEO,3,05-05-2025,Contacted
+303,Lead_303,Company_130,lead303@example.com,9.19E+11,Social Media,SEO,1,17-03-2025,Contacted
+304,Lead_304,Company_197,lead304@example.com,9.19E+11,Website,Web Development,5,19-06-2025,Converted
+305,Lead_305,Company_47,lead305@example.com,9.20E+11,Social Media,Meta Ads,2,09-02-2025,Converted
+306,Lead_306,Company_106,lead306@example.com,9.18E+11,Website,Web Development,0,23-04-2025,Lost
+307,Lead_307,Company_193,lead307@example.com,9.19E+11,Cold Call,Meta Ads,4,06-06-2025,Contacted
+308,Lead_308,Company_80,lead308@example.com,9.19E+11,Cold Call,Meta Ads,3,17-05-2025,Contacted
+309,Lead_309,Company_147,lead309@example.com,9.18E+11,Cold Call,Google Ads,10,05-04-2025,Lost
+310,Lead_310,Company_136,lead310@example.com,9.18E+11,Website,Meta Ads,8,08-04-2025,Contacted
+311,Lead_311,Company_65,lead311@example.com,9.16E+11,Cold Call,Google Ads,2,04-06-2025,Contacted
+312,Lead_312,Company_183,lead312@example.com,9.20E+11,Social Media,SEO,1,22-05-2025,New
+313,Lead_313,Company_196,lead313@example.com,9.17E+11,Referral,Web Development,1,14-03-2025,New
+314,Lead_314,Company_112,lead314@example.com,9.16E+11,Website,Web Development,2,12-05-2025,Lost
+315,Lead_315,Company_107,lead315@example.com,9.16E+11,Cold Call,Google Ads,0,31-03-2025,Lost
+316,Lead_316,Company_21,lead316@example.com,9.18E+11,Website,SEO,6,02-03-2025,Converted
+317,Lead_317,Company_183,lead317@example.com,9.19E+11,Referral,Meta Ads,1,23-03-2025,Contacted
+318,Lead_318,Company_74,lead318@example.com,9.20E+11,Cold Call,Meta Ads,0,05-02-2025,New
+319,Lead_319,Company_115,lead319@example.com,9.19E+11,Indeed,SEO,7,30-06-2025,New
+320,Lead_320,Company_56,lead320@example.com,9.20E+11,Website,Web Development,4,05-01-2025,Contacted
+321,Lead_321,Company_61,lead321@example.com,9.17E+11,Indeed,SEO,4,29-01-2025,Contacted
+322,Lead_322,Company_164,lead322@example.com,9.19E+11,Social Media,Web Development,6,03-03-2025,Converted
+323,Lead_323,Company_128,lead323@example.com,9.19E+11,Social Media,SEO,1,17-01-2025,Converted
+324,Lead_324,Company_148,lead324@example.com,9.17E+11,Website,Google Ads,8,11-06-2025,Contacted
+325,Lead_325,Company_158,lead325@example.com,9.18E+11,Website,Web Development,0,20-04-2025,Lost
+326,Lead_326,Company_172,lead326@example.com,9.16E+11,Social Media,Google Ads,10,17-02-2025,Converted
+327,Lead_327,Company_140,lead327@example.com,9.18E+11,Social Media,SEO,8,18-01-2025,Contacted
+328,Lead_328,Company_12,lead328@example.com,9.19E+11,Cold Call,Google Ads,7,10-04-2025,Converted
+329,Lead_329,Company_92,lead329@example.com,9.19E+11,Indeed,Google Ads,0,06-03-2025,Contacted
+330,Lead_330,Company_161,lead330@example.com,9.16E+11,Social Media,Google Ads,10,03-03-2025,New
+331,Lead_331,Company_91,lead331@example.com,9.18E+11,Referral,Meta Ads,0,04-02-2025,Contacted
+332,Lead_332,Company_179,lead332@example.com,9.18E+11,Website,Meta Ads,7,25-06-2025,Converted
+333,Lead_333,Company_10,lead333@example.com,9.17E+11,Website,SEO,7,17-01-2025,New
+334,Lead_334,Company_81,lead334@example.com,9.17E+11,Social Media,Web Development,0,21-02-2025,New
+335,Lead_335,Company_65,lead335@example.com,9.16E+11,Website,Google Ads,7,20-05-2025,New
+336,Lead_336,Company_168,lead336@example.com,9.17E+11,Referral,SEO,0,02-04-2025,New
+337,Lead_337,Company_103,lead337@example.com,9.19E+11,Cold Call,Web Development,6,05-04-2025,Lost
+338,Lead_338,Company_128,lead338@example.com,9.19E+11,Cold Call,Google Ads,2,28-03-2025,Converted
+339,Lead_339,Company_22,lead339@example.com,9.19E+11,Cold Call,SEO,4,13-05-2025,Contacted
+340,Lead_340,Company_47,lead340@example.com,9.18E+11,Referral,Google Ads,9,21-04-2025,New
+341,Lead_341,Company_84,lead341@example.com,9.19E+11,Referral,Google Ads,1,27-01-2025,Contacted
+342,Lead_342,Company_184,lead342@example.com,9.18E+11,Website,Web Development,9,25-04-2025,Contacted
+343,Lead_343,Company_11,lead343@example.com,9.19E+11,Referral,Web Development,7,31-03-2025,New
+344,Lead_344,Company_15,lead344@example.com,9.16E+11,Cold Call,Google Ads,10,12-03-2025,Contacted
+345,Lead_345,Company_41,lead345@example.com,9.16E+11,Website,Web Development,10,12-05-2025,Contacted
+346,Lead_346,Company_18,lead346@example.com,9.17E+11,Referral,Google Ads,2,09-01-2025,Converted
+347,Lead_347,Company_9,lead347@example.com,9.19E+11,Website,Web Development,9,09-04-2025,Converted
+348,Lead_348,Company_114,lead348@example.com,9.19E+11,Indeed,Meta Ads,5,05-04-2025,New
+349,Lead_349,Company_102,lead349@example.com,9.17E+11,Referral,Meta Ads,5,16-05-2025,Contacted
+350,Lead_350,Company_189,lead350@example.com,9.17E+11,Cold Call,Web Development,0,30-01-2025,Converted
+351,Lead_351,Company_68,lead351@example.com,9.19E+11,Referral,Web Development,1,24-05-2025,Contacted
+352,Lead_352,Company_74,lead352@example.com,9.19E+11,Cold Call,Meta Ads,9,24-02-2025,Lost
+353,Lead_353,Company_19,lead353@example.com,9.18E+11,Website,Web Development,2,01-02-2025,Converted
+354,Lead_354,Company_82,lead354@example.com,9.19E+11,Referral,SEO,10,23-01-2025,New
+355,Lead_355,Company_75,lead355@example.com,9.20E+11,Referral,Meta Ads,8,21-05-2025,New
+356,Lead_356,Company_45,lead356@example.com,9.19E+11,Referral,Meta Ads,10,29-06-2025,Converted
+357,Lead_357,Company_36,lead357@example.com,9.17E+11,Cold Call,SEO,3,01-02-2025,New
+358,Lead_358,Company_147,lead358@example.com,9.18E+11,Cold Call,Meta Ads,8,03-04-2025,Contacted
+359,Lead_359,Company_17,lead359@example.com,9.17E+11,Cold Call,Web Development,1,06-06-2025,Lost
+360,Lead_360,Company_197,lead360@example.com,9.18E+11,Social Media,SEO,6,15-05-2025,Contacted
+361,Lead_361,Company_165,lead361@example.com,9.16E+11,Cold Call,Web Development,5,02-02-2025,Contacted
+362,Lead_362,Company_89,lead362@example.com,9.17E+11,Social Media,Meta Ads,8,24-06-2025,Converted
+363,Lead_363,Company_129,lead363@example.com,9.20E+11,Indeed,SEO,6,03-02-2025,Contacted
+364,Lead_364,Company_78,lead364@example.com,9.17E+11,Website,Google Ads,2,13-05-2025,Contacted
+365,Lead_365,Company_133,lead365@example.com,9.20E+11,Referral,SEO,5,27-02-2025,Lost
+366,Lead_366,Company_163,lead366@example.com,9.18E+11,Referral,Meta Ads,3,06-03-2025,Contacted
+367,Lead_367,Company_158,lead367@example.com,9.18E+11,Indeed,Meta Ads,4,10-06-2025,Lost
+368,Lead_368,Company_40,lead368@example.com,9.17E+11,Social Media,Google Ads,9,01-06-2025,Lost
+369,Lead_369,Company_8,lead369@example.com,9.16E+11,Indeed,Google Ads,0,25-05-2025,New
+370,Lead_370,Company_197,lead370@example.com,9.18E+11,Cold Call,SEO,3,16-06-2025,New
+371,Lead_371,Company_140,lead371@example.com,9.17E+11,Referral,Web Development,10,08-05-2025,New
+372,Lead_372,Company_104,lead372@example.com,9.17E+11,Cold Call,SEO,10,04-03-2025,New
+373,Lead_373,Company_41,lead373@example.com,9.18E+11,Cold Call,Web Development,0,26-06-2025,New
+374,Lead_374,Company_88,lead374@example.com,9.19E+11,Website,Google Ads,3,29-04-2025,Converted
+375,Lead_375,Company_103,lead375@example.com,9.17E+11,Referral,SEO,5,23-03-2025,New
+376,Lead_376,Company_120,lead376@example.com,9.17E+11,Referral,Web Development,3,23-03-2025,Contacted
+377,Lead_377,Company_25,lead377@example.com,9.16E+11,Referral,Web Development,2,05-03-2025,Lost
+378,Lead_378,Company_64,lead378@example.com,9.20E+11,Website,Google Ads,6,07-06-2025,New
+379,Lead_379,Company_49,lead379@example.com,9.19E+11,Website,Web Development,5,28-05-2025,Lost
+380,Lead_380,Company_128,lead380@example.com,9.20E+11,Referral,Web Development,7,12-05-2025,Contacted
+381,Lead_381,Company_101,lead381@example.com,9.18E+11,Cold Call,Meta Ads,1,06-01-2025,New
+382,Lead_382,Company_91,lead382@example.com,9.16E+11,Indeed,Google Ads,9,25-02-2025,Converted
+383,Lead_383,Company_168,lead383@example.com,9.19E+11,Cold Call,Google Ads,9,07-05-2025,Converted
+384,Lead_384,Company_28,lead384@example.com,9.18E+11,Website,Google Ads,0,18-05-2025,Lost
+385,Lead_385,Company_94,lead385@example.com,9.16E+11,Cold Call,SEO,6,04-04-2025,Converted
+386,Lead_386,Company_50,lead386@example.com,9.18E+11,Social Media,Google Ads,8,26-05-2025,Lost
+387,Lead_387,Company_130,lead387@example.com,9.18E+11,Social Media,Google Ads,6,19-01-2025,Contacted
+388,Lead_388,Company_157,lead388@example.com,9.17E+11,Website,SEO,10,09-06-2025,New
+389,Lead_389,Company_87,lead389@example.com,9.18E+11,Referral,Meta Ads,5,11-04-2025,Converted
+390,Lead_390,Company_131,lead390@example.com,9.18E+11,Social Media,SEO,9,20-02-2025,Lost
+391,Lead_391,Company_36,lead391@example.com,9.19E+11,Referral,Web Development,0,12-01-2025,Lost
+392,Lead_392,Company_39,lead392@example.com,9.19E+11,Social Media,Meta Ads,7,13-05-2025,Contacted
+393,Lead_393,Company_82,lead393@example.com,9.17E+11,Cold Call,Google Ads,9,25-03-2025,Contacted
+394,Lead_394,Company_130,lead394@example.com,9.20E+11,Social Media,Web Development,5,01-06-2025,Converted
+395,Lead_395,Company_122,lead395@example.com,9.20E+11,Indeed,Google Ads,4,25-05-2025,Contacted
+396,Lead_396,Company_29,lead396@example.com,9.18E+11,Social Media,Google Ads,10,26-03-2025,Lost
+397,Lead_397,Company_7,lead397@example.com,9.19E+11,Cold Call,Google Ads,10,26-06-2025,Lost
+398,Lead_398,Company_148,lead398@example.com,9.17E+11,Indeed,Web Development,9,17-06-2025,Contacted
+399,Lead_399,Company_162,lead399@example.com,9.19E+11,Social Media,Web Development,8,13-02-2025,Converted
+400,Lead_400,Company_63,lead400@example.com,9.16E+11,Social Media,SEO,10,07-02-2025,Converted
+401,Lead_401,Company_113,lead401@example.com,9.17E+11,Cold Call,Meta Ads,0,18-02-2025,New
+402,Lead_402,Company_106,lead402@example.com,9.18E+11,Social Media,Web Development,3,16-04-2025,Lost
+403,Lead_403,Company_133,lead403@example.com,9.17E+11,Social Media,Google Ads,2,16-01-2025,Contacted
+404,Lead_404,Company_135,lead404@example.com,9.18E+11,Referral,Meta Ads,7,19-06-2025,Lost
+405,Lead_405,Company_88,lead405@example.com,9.18E+11,Referral,Google Ads,8,28-04-2025,Contacted
+406,Lead_406,Company_50,lead406@example.com,9.17E+11,Referral,Google Ads,7,06-06-2025,Lost
+407,Lead_407,Company_198,lead407@example.com,9.17E+11,Website,Web Development,4,27-02-2025,Contacted
+408,Lead_408,Company_90,lead408@example.com,9.18E+11,Referral,Google Ads,7,23-03-2025,New
+409,Lead_409,Company_174,lead409@example.com,9.18E+11,Cold Call,Web Development,9,01-02-2025,Lost
+410,Lead_410,Company_75,lead410@example.com,9.16E+11,Referral,SEO,2,30-03-2025,New
+411,Lead_411,Company_168,lead411@example.com,9.17E+11,Cold Call,Meta Ads,7,30-03-2025,Contacted
+412,Lead_412,Company_70,lead412@example.com,9.18E+11,Referral,Meta Ads,8,21-02-2025,Lost
+413,Lead_413,Company_190,lead413@example.com,9.19E+11,Website,Meta Ads,9,28-01-2025,Lost
+414,Lead_414,Company_136,lead414@example.com,9.17E+11,Website,SEO,10,13-01-2025,Contacted
+415,Lead_415,Company_85,lead415@example.com,9.19E+11,Cold Call,SEO,6,26-01-2025,Converted
+416,Lead_416,Company_2,lead416@example.com,9.18E+11,Website,Web Development,2,24-06-2025,Contacted
+417,Lead_417,Company_123,lead417@example.com,9.19E+11,Website,Google Ads,7,17-06-2025,Contacted
+418,Lead_418,Company_166,lead418@example.com,9.16E+11,Indeed,Meta Ads,4,24-03-2025,Contacted
+419,Lead_419,Company_45,lead419@example.com,9.18E+11,Website,SEO,0,17-05-2025,Converted
+420,Lead_420,Company_48,lead420@example.com,9.19E+11,Referral,SEO,7,12-04-2025,Converted
+421,Lead_421,Company_146,lead421@example.com,9.19E+11,Indeed,Google Ads,4,03-01-2025,Lost
+422,Lead_422,Company_165,lead422@example.com,9.18E+11,Social Media,Web Development,7,14-03-2025,Lost
+423,Lead_423,Company_120,lead423@example.com,9.17E+11,Website,SEO,8,04-02-2025,New
+424,Lead_424,Company_188,lead424@example.com,9.18E+11,Referral,Meta Ads,2,26-03-2025,Contacted
+425,Lead_425,Company_76,lead425@example.com,9.18E+11,Website,Meta Ads,5,04-01-2025,New
+426,Lead_426,Company_104,lead426@example.com,9.20E+11,Cold Call,Google Ads,10,06-06-2025,Contacted
+427,Lead_427,Company_172,lead427@example.com,9.16E+11,Website,Meta Ads,6,23-01-2025,Contacted
+428,Lead_428,Company_64,lead428@example.com,9.16E+11,Referral,Web Development,5,03-05-2025,Lost
+429,Lead_429,Company_193,lead429@example.com,9.17E+11,Referral,Google Ads,7,02-03-2025,Contacted
+430,Lead_430,Company_3,lead430@example.com,9.17E+11,Referral,Meta Ads,9,30-05-2025,New
+431,Lead_431,Company_31,lead431@example.com,9.18E+11,Referral,Meta Ads,10,16-01-2025,New
+432,Lead_432,Company_129,lead432@example.com,9.20E+11,Referral,SEO,10,14-04-2025,Converted
+433,Lead_433,Company_95,lead433@example.com,9.19E+11,Website,Meta Ads,4,13-06-2025,Converted
+434,Lead_434,Company_40,lead434@example.com,9.18E+11,Social Media,Google Ads,7,04-02-2025,New
+435,Lead_435,Company_121,lead435@example.com,9.19E+11,Social Media,Meta Ads,8,17-04-2025,New
+436,Lead_436,Company_194,lead436@example.com,9.19E+11,Indeed,Web Development,10,05-03-2025,Converted
+437,Lead_437,Company_20,lead437@example.com,9.20E+11,Social Media,SEO,5,16-05-2025,New
+438,Lead_438,Company_130,lead438@example.com,9.17E+11,Social Media,Meta Ads,8,16-01-2025,Lost
+439,Lead_439,Company_134,lead439@example.com,9.18E+11,Indeed,Meta Ads,5,12-02-2025,Converted
+440,Lead_440,Company_24,lead440@example.com,9.20E+11,Social Media,Web Development,7,30-05-2025,New
+441,Lead_441,Company_34,lead441@example.com,9.18E+11,Cold Call,Web Development,7,15-01-2025,New
+442,Lead_442,Company_144,lead442@example.com,9.18E+11,Referral,SEO,0,25-05-2025,Lost
+443,Lead_443,Company_1,lead443@example.com,9.19E+11,Website,SEO,4,12-04-2025,Contacted
+444,Lead_444,Company_89,lead444@example.com,9.19E+11,Indeed,SEO,6,12-01-2025,Contacted
+445,Lead_445,Company_9,lead445@example.com,9.17E+11,Cold Call,Meta Ads,7,18-01-2025,Lost
+446,Lead_446,Company_187,lead446@example.com,9.19E+11,Cold Call,Google Ads,10,04-02-2025,Lost
+447,Lead_447,Company_97,lead447@example.com,9.18E+11,Indeed,Meta Ads,7,08-04-2025,Lost
+448,Lead_448,Company_31,lead448@example.com,9.17E+11,Social Media,Web Development,5,17-06-2025,Converted
+449,Lead_449,Company_187,lead449@example.com,9.17E+11,Indeed,SEO,2,16-05-2025,Contacted
+450,Lead_450,Company_173,lead450@example.com,9.19E+11,Social Media,Web Development,7,18-03-2025,New
+451,Lead_451,Company_59,lead451@example.com,9.17E+11,Cold Call,Google Ads,6,17-05-2025,Converted
+452,Lead_452,Company_49,lead452@example.com,9.20E+11,Indeed,SEO,4,09-02-2025,Contacted
+453,Lead_453,Company_158,lead453@example.com,9.19E+11,Indeed,Meta Ads,6,19-06-2025,Contacted
+454,Lead_454,Company_26,lead454@example.com,9.19E+11,Indeed,Web Development,1,22-02-2025,Lost
+455,Lead_455,Company_181,lead455@example.com,9.20E+11,Indeed,Meta Ads,10,03-06-2025,New
+456,Lead_456,Company_113,lead456@example.com,9.17E+11,Social Media,Meta Ads,6,12-01-2025,Contacted
+457,Lead_457,Company_129,lead457@example.com,9.17E+11,Website,Google Ads,2,15-01-2025,New
+458,Lead_458,Company_198,lead458@example.com,9.19E+11,Referral,Meta Ads,9,28-05-2025,Contacted
+459,Lead_459,Company_170,lead459@example.com,9.18E+11,Website,Web Development,2,19-03-2025,New
+460,Lead_460,Company_16,lead460@example.com,9.18E+11,Social Media,Meta Ads,4,18-03-2025,New
+461,Lead_461,Company_110,lead461@example.com,9.18E+11,Cold Call,SEO,10,10-06-2025,New
+462,Lead_462,Company_172,lead462@example.com,9.18E+11,Social Media,Google Ads,10,30-03-2025,Converted
+463,Lead_463,Company_105,lead463@example.com,9.17E+11,Referral,Web Development,6,28-06-2025,Converted
+464,Lead_464,Company_122,lead464@example.com,9.17E+11,Website,Google Ads,8,17-02-2025,Contacted
+465,Lead_465,Company_15,lead465@example.com,9.18E+11,Cold Call,Web Development,7,06-02-2025,Lost
+466,Lead_466,Company_35,lead466@example.com,9.18E+11,Website,Google Ads,8,23-05-2025,Contacted
+467,Lead_467,Company_166,lead467@example.com,9.16E+11,Cold Call,Google Ads,5,22-02-2025,Contacted
+468,Lead_468,Company_186,lead468@example.com,9.20E+11,Website,SEO,8,24-01-2025,Lost
+469,Lead_469,Company_173,lead469@example.com,9.19E+11,Social Media,SEO,6,10-03-2025,New
+470,Lead_470,Company_195,lead470@example.com,9.19E+11,Social Media,Meta Ads,3,19-01-2025,Lost
+471,Lead_471,Company_86,lead471@example.com,9.17E+11,Indeed,Meta Ads,3,03-05-2025,New
+472,Lead_472,Company_192,lead472@example.com,9.19E+11,Cold Call,Meta Ads,1,18-02-2025,Lost
+473,Lead_473,Company_181,lead473@example.com,9.17E+11,Cold Call,Meta Ads,9,28-06-2025,New
+474,Lead_474,Company_199,lead474@example.com,9.17E+11,Cold Call,Web Development,5,22-05-2025,Lost
+475,Lead_475,Company_92,lead475@example.com,9.17E+11,Referral,Google Ads,10,17-05-2025,Contacted
+476,Lead_476,Company_120,lead476@example.com,9.16E+11,Cold Call,Google Ads,7,12-05-2025,Lost
+477,Lead_477,Company_81,lead477@example.com,9.18E+11,Indeed,Meta Ads,5,22-02-2025,New
+478,Lead_478,Company_67,lead478@example.com,9.18E+11,Social Media,Web Development,0,07-02-2025,Contacted
+479,Lead_479,Company_51,lead479@example.com,9.17E+11,Website,Web Development,2,17-03-2025,Lost
+480,Lead_480,Company_128,lead480@example.com,9.18E+11,Referral,Google Ads,3,26-05-2025,Contacted
+481,Lead_481,Company_190,lead481@example.com,9.18E+11,Cold Call,Meta Ads,10,06-05-2025,Converted
+482,Lead_482,Company_36,lead482@example.com,9.19E+11,Social Media,Web Development,2,01-04-2025,Converted
+483,Lead_483,Company_165,lead483@example.com,9.16E+11,Social Media,SEO,8,17-02-2025,Contacted
+484,Lead_484,Company_13,lead484@example.com,9.19E+11,Indeed,Web Development,10,20-01-2025,Converted
+485,Lead_485,Company_60,lead485@example.com,9.16E+11,Website,SEO,10,05-02-2025,Contacted
+486,Lead_486,Company_117,lead486@example.com,9.18E+11,Indeed,Web Development,8,25-02-2025,Lost
+487,Lead_487,Company_5,lead487@example.com,9.16E+11,Social Media,Web Development,7,18-06-2025,New
+488,Lead_488,Company_136,lead488@example.com,9.19E+11,Referral,Google Ads,0,04-01-2025,Contacted
+489,Lead_489,Company_179,lead489@example.com,9.19E+11,Cold Call,Meta Ads,8,05-01-2025,Lost
+490,Lead_490,Company_135,lead490@example.com,9.17E+11,Website,Meta Ads,1,28-01-2025,Lost
+491,Lead_491,Company_65,lead491@example.com,9.20E+11,Referral,Google Ads,8,08-06-2025,Contacted
+492,Lead_492,Company_96,lead492@example.com,9.18E+11,Cold Call,Meta Ads,1,12-04-2025,Converted
+493,Lead_493,Company_77,lead493@example.com,9.19E+11,Indeed,SEO,3,28-06-2025,Contacted
+494,Lead_494,Company_98,lead494@example.com,9.18E+11,Social Media,Web Development,6,24-01-2025,New
+495,Lead_495,Company_3,lead495@example.com,9.19E+11,Website,SEO,10,15-01-2025,Contacted
+496,Lead_496,Company_166,lead496@example.com,9.19E+11,Referral,SEO,6,08-05-2025,Contacted
+497,Lead_497,Company_59,lead497@example.com,9.17E+11,Social Media,Web Development,0,16-05-2025,Contacted
+498,Lead_498,Company_20,lead498@example.com,9.19E+11,Referral,SEO,0,11-03-2025,New
+499,Lead_499,Company_5,lead499@example.com,9.17E+11,Social Media,Meta Ads,5,15-02-2025,Lost
+500,Lead_500,Company_77,lead500@example.com,9.17E+11,Social Media,Meta Ads,1,12-04-2025,Lost
